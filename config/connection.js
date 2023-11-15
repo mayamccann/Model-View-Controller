@@ -1,1 +1,3 @@
-const Sequelize = require();
+const Sequelize = require('sequelize');
+
+let sequelize;
