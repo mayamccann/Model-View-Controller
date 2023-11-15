@@ -1,3 +1,3 @@
-const sequelize = require 
+const sequelize = require('../config/connection');
 
 
