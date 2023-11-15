@@ -1,2 +1,3 @@
-const User = require();
-const Project = require();
+const User = require('./user');
+
+module.exports = { User };
