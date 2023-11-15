@@ -1,1 +1,3 @@
-const Sequelize = require('sequelize');
+const router = require().Router();
+
+
