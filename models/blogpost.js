@@ -1,3 +1,5 @@
+const sequelize = require("sequelize");
+
 Post.init(
 {
     id: {
@@ -9,6 +11,14 @@ Post.init(
 
 },
 
+{
+
+    sequelize,
+    timestamps: false,
+    freezeTableName: true,
+    underscored: true,
+    modelName: 'post',
+}
 
 
 
