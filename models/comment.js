@@ -11,11 +11,13 @@ Comment.init(
     }, 
 
     // similar to title of blogpost.js
-
+{
     comment: {
         type: DataTypes.STRING,
         allowNull: false,
     },
+
+}, 
 
 {
         sequelize,
