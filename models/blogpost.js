@@ -9,6 +9,7 @@ Post.init(
         autoIncrement: true
     },
 
+    //why title? title for after id
     title: {
         type: DataTypes.STRING,
         allowNull: false,
