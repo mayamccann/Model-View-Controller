@@ -9,6 +9,9 @@ User.hasMany(Post) {
     onDelete: 
 }
 
+//foreignKey: a filed in one table aka primary key in another table
+//onDelete: on delete action for foreign key constraint
+
 
 
 
